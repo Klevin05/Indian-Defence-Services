@@ -1,0 +1,38 @@
+
+ body {
+  background-image: url('Dark Blue and Orange Simple Dark Consultancy Portfolio & Resume Website.png');
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(3, 4, 10, 0.397);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(18, 238, 102);
+  /*background-color: rgba(48, 44, 44, 0.815);*/
+}
+
+/*.active {
+  background-color: #a5a6bedc;
+}*/
